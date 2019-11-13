@@ -19,9 +19,16 @@
             app:layout_constraintTop_toTopOf="parent"/>
 
         <Button
+            android:id="@+id/btnEnter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Presioname"></Button>
+        <Button
+            android:id="@+id/btnAboutUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Presioname"></Button>
+
     </LinearLayout>
 
 
