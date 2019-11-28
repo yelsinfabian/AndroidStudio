@@ -22,6 +22,15 @@ public class MainActivity extends AppCompatActivity {
 
         // /se enlasa el activity + layout/ se enlasa el activity + layout/ se enlasa el activity + layout
 
+        // /se enlasa el activity + layout/ se enlasa el activity + layout/ se enlasa el activity + layout // /se enlasa el activity + layout/ se enlasa el activity + layout/ se enlasa el activity + layout
+        // /se enlasa el activity + layout/ se enlasa el activity + layout/ se enlasa el activity + layout
+        // /se enlasa el activity + layout/ se enlasa el activity + layout/ se enlasa el activity + layout
+        // /se enlasa el activity + layout/ se enlasa el activity + layout/ se enlasa el activity + layout // /se enlasa el activity + layout/ se enlasa el activity + layout/ se enlasa el activity + layout
+        // /se enlasa el activity + layout/ se enlasa el activity + layout/ se enlasa el activity + layout
+
+
+
+
 
         btnProducts = (Button) findViewById(R.id.btnEnter);
         btnAboutUs = (Button) findViewById(R.id.btnAboutUs);
