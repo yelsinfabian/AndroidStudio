@@ -19,6 +19,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main); // se enlasa el activity + layout
+
+        // /se enlasa el activity + layout/ se enlasa el activity + layout/ se enlasa el activity + layout
+
+
         btnProducts = (Button) findViewById(R.id.btnEnter);
         btnAboutUs = (Button) findViewById(R.id.btnAboutUs);
         btnProducts.setOnClickListener(new View.OnClickListener() {
