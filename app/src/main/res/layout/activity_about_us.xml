@@ -7,22 +7,47 @@
     android:gravity="center"
     android:orientation="vertical"
     android:padding="36dp"
-    tools:context=".AboutUsActivity">
+    android:background="#A1887F"
+    tools:context=".AboutUsActivity"
+    >
 
    <ImageView
        android:layout_width="120px"
-       android:layout_height="120px" />
+       android:layout_height="120px"
+       android:background="@drawable/bg_logo_aboutus"
+       android:src="@drawable/corona"
+
+       />
+
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:layout_height="243dp"
+        android:layout_height="218dp"
+        android:layout_margin="12dp"
         android:layout_weight="1"
+        android:width="512dp"
+        android:height="180dp"
+        android:background="@drawable/bg_ripple_aboutus"
         android:padding="12dp"
-        android:text="asdasdasdsadasdasdddddddddddddddddddddddddddddddddddddddddasdasd"
+        android:gravity="center"
+        android:text="No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas  las cuales contenian pasajes de Lorem Ipsum. "
+        android:textColor="#EFEBE9"
         android:textAlignment="center" />
 
-
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="218dp"
+        android:layout_margin="12dp"
+        android:width="512dp"
+        android:height="10dp"
+        android:background="@drawable/bg_ripple_aboutus"
+        android:padding="12dp"
+        android:textColor="#EFEBE9"
+        android:gravity="center"
+        android:text="No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original"
+        android:textAlignment="center" />
 
 
 </LinearLayout>
